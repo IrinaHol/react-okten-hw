@@ -2,7 +2,7 @@ import './App.css';
 
 import {Users} from "./components";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
         <Users/>
@@ -10,4 +10,4 @@ function App() {
   );
 }
 
-export default App;
+export {App};

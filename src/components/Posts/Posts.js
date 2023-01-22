@@ -4,11 +4,7 @@ import {Post} from "../Post/Post";
 
 const Posts = ({userId}) => {
  console.log(userId)
- // const [posts, setPosts] = useState([]);
- //
- // useEffect(() => {
- //  postService.getPostsByUserId(userId).then(({data}) => setPosts([...data]))
- // }, [userId])
+
 
  return (
      <div>
